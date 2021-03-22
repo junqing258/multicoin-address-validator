@@ -1,5 +1,6 @@
 var BTCValidator = require('./bitcoin_validator');
 var ETHValidator = require('./ethereum_validator');
+var TRXValidator = require('./tron_validator');
 
 function checkBothValidators(address, currency, networkType) {
     return ETHValidator.isValidAddress(address, currency, networkType) ||
