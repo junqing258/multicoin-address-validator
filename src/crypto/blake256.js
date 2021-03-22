@@ -1,4 +1,5 @@
 'use strict';
+var Buffer = require('safe-buffer').Buffer;
 
 /**
  * Credits to https://github.com/cryptocoinjs/blake-hash
