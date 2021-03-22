@@ -187,6 +187,11 @@ base64-js@^1.0.2:
   resolved "https://registry.npm.taobao.org/base64-js/download/base64-js-1.3.0.tgz?cache=0&sync_timestamp=1605123440207&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbase64-js%2Fdownload%2Fbase64-js-1.3.0.tgz"
   integrity "sha1-yrHmEY8FEJXli1KBrqjBzSK/wOM= sha512-ccav/yGvoa80BQDljCxsmmQ3Xvx60/UpBIij5QN21W3wBi/hhIC9OoO+KLpu9IJTS9j4DRVJ3aDDF9cMSoa2lw=="
 
+base64-js@^1.3.1:
+  version "1.5.1"
+  resolved "https://registry.npm.taobao.org/base64-js/download/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha1-GxtEAWClv3rUC2UPCVljSBkDkwo=
+
 base64id@2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/base64id/download/base64id-2.0.0.tgz"
@@ -409,6 +414,14 @@ buffer@^5.1.0, buffer@~5.2.1:
   dependencies:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
+
+buffer@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.npm.taobao.org/buffer/download/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
+  integrity sha1-Ks5XhFnMj74qcKqo9S7mO2p0xsY=
+  dependencies:
+    base64-js "^1.3.1"
+    ieee754 "^1.2.1"
 
 builtin-status-codes@^3.0.0:
   version "3.0.0"
@@ -1309,6 +1322,11 @@ ieee754@^1.1.4:
   resolved "https://registry.npm.taobao.org/ieee754/download/ieee754-1.1.12.tgz?cache=0&sync_timestamp=1603838208740&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fieee754%2Fdownload%2Fieee754-1.1.12.tgz"
   integrity "sha1-UL8k5bnIu5ivSWTJQc2wkY2ntgs= sha512-GguP+DRY+pJ3soyIiGPTvdiVXjZ+DbXOxGpXn3eMvNW4x4irjqXm4wHKscC+TfxSJ0yw/S1F24tqdMNsMZTiLA=="
 
+ieee754@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npm.taobao.org/ieee754/download/ieee754-1.2.1.tgz?cache=0&sync_timestamp=1603838209136&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fieee754%2Fdownload%2Fieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
+  integrity sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I=
+
 indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.npm.taobao.org/indexof/download/indexof-0.0.1.tgz"
@@ -2175,7 +2193,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@^5.2.1:
+safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
   version "5.2.1"
   resolved "https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.2.1.tgz?cache=0&sync_timestamp=1589682795646&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsafe-buffer%2Fdownload%2Fsafe-buffer-5.2.1.tgz"
   integrity sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY=
